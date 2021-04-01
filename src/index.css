@@ -5,6 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: hsla(31, 90%, 76%, 1);
+
+  background: linear-gradient(
+    to right,
+    hsla(31, 90%, 76%, 1) 0%,
+    hsla(302, 82%, 76%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    to right,
+    hsla(31, 90%, 76%, 1) 0%,
+    hsla(302, 82%, 76%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    to right,
+    hsla(31, 90%, 76%, 1) 0%,
+    hsla(302, 82%, 76%, 1) 100%
+  );
 }
 
 code {
